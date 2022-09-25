@@ -1,9 +1,10 @@
+#tic tac toe game created by Charity Becker with the help of the internet.
 from extras import draw_grid, whos_turn, check_for_win
 import os
-
+#create a dic called spaces
 spaces = {1 : "1", 2 : "2", 3 : "3", 4 : "4", 5 : "5",
             6 : "6", 7 : "7", 8 : "8", 9 : "9"}
-
+#declare a few variables
 gameOn = True
 gameOver = False
 turn = 0
